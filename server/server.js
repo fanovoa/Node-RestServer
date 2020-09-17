@@ -14,7 +14,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.use(require('./routes/usuarioRoute'));
+//Configuración global de routes
+app.use(require('./routes/index'));
+
 
 const coneccionBD = async() => {
 
