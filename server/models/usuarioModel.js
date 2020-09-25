@@ -7,7 +7,7 @@ let rolesValidos = {
 };
 
 
-let Schema = mongoose.Schema;
+const Schema = mongoose.Schema;
 
 let usuarioSchema = new Schema({
 
